@@ -1,0 +1,268 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0em;
+  padding: 0em;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0em;
+}
+
+header {
+  background-color: #4617fe;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  right: 0em;
+  padding-right: 0%;
+  margin-top: 1em;
+  font-size: 0.9em;
+  margin-right: 2em;
+}
+
+
+.nav-item {
+  margin-left: 1em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.nav-item:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  color: gray;
+}
+
+.nav-item-active {
+  margin-left: 2em;
+  padding: 0.1em;
+  color: #4617fe;
+  border: 0.2em solid #ffffff;
+  border-radius: 0.3em;
+  background-color: #ffffff;
+ 
+}
+
+.nav-item-active:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  color: gray;
+}
+
+.logo {
+padding: 1em;
+width: 7em;
+cursor: pointer;
+}
+
+.header-text {
+  color: #ffffff;
+  position: absolute;
+  top: 4em;
+  margin: 1em;
+}
+
+.header-text h2 {
+  margin: 1em 0em;
+} 
+
+.header-image {
+   position: relative;
+   top: 6em;
+   width: 20em;
+}
+
+.companies {
+  margin: 1em 2em;
+  font-family: "Poppins", Courier, monospace;
+}
+
+.company-items {
+  font-family: "poppins";
+  text-decoration: none;
+  padding: 1em;
+  color: #000000;
+  font-weight: 700;
+}
+
+.api {
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 2em;
+
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0em;
+}
+
+
+.card-active {
+  padding: 1em;
+  border-radius: 0.7em;
+  /* -webkit-box-shadow: 11px 10px 50px -21px rgba(0,0,0,0.86);
+  -moz-box-shadow: 11px 10px 50px -21px rgba(0,0,0,0.86); */
+  box-shadow: 11px 10px 50px -21px rgba(0,0,0,0.86);
+}
+
+.card-active:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  -webkit-box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+  -moz-box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+  box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+}
+
+.blog-heading {
+  margin-top: 3em;
+  margin-left: 1em;
+  margin-right: 2em;
+}
+
+.blog-cards {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2em;
+}
+
+.blog-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  border-radius: 3em;
+  -webkit-box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+  -moz-box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+  box-shadow: 11px 10px 113px -21px rgba(0,0,0,0.86);
+}
+
+.blog-card img {
+  max-height: 100%;
+}
+
+.blog-content {
+  font-size: 0.8em;
+  margin: 2em 1em;
+
+}
+
+.blog-content h6, h3 {
+  margin-bottom: 2em;
+}
+
+.blog-author {
+  font-size: 0.9em;
+  margin: 2em 0.5em;
+
+}
+
+.blog-card-bottom-image {
+  width: 3em;
+  margin: 2em 0em;
+}
+
+.faq-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 2em;
+  background-color: #e9edff;
+}
+
+.faq-section h2 {
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #5a31fc;
+  border: transparent;
+  color: #ffffff;
+  border-radius: 0.3em;
+  margin: 2em 0em;
+  padding: 0.5em 2em;
+}
+
+.download-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 1em;
+}
+
+.download-email input {
+  padding: 0.5em 7em;
+  border-radius: 2em;
+}
+
+.download-section button {
+  border-radius: 2em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4617fe;
+  padding: 1.5em 1em;
+  color: #ffffff;
+}
+
+.footer-left .list {
+  list-style-type: none;
+  display: flex;
+}
+
+.footer-logo {
+  width: 6.5em;
+  margin-bottom: 1em;
+  padding: 0em;
+  cursor: pointer;
+}
+
+.footer-left .list-items {
+  margin-right: 2em;
+  font-size: 0.8em;
+  cursor: pointer;
+}
+
+.footer-right {
+  padding-right: 1em;
+}
+
+.footer-logos {
+  margin-right: 01.5em;
+  cursor: pointer;
+}
+
+.footer-right .footer-right-logo {
+  margin-left: 1em;
+}
+
+.logos-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.logos-list .list-items {
+  margin-right: 2em;
+  cursor: pointer;
+}
